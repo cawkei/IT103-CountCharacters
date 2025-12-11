@@ -3,8 +3,7 @@ h3 {
     color: var(--text-color);
 }
 
-#CountCharacters, 
-#EmailCheck {
+#CountCharacters {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,17 +21,6 @@ h3 {
     border-radius: 5px;
 }
 
-#userEmail {
-    color: rgb(205, 203, 209, 0.844);
-    background: transparent;
-    border-color: rgb(175, 175, 186);
-    font-size: 1.4em; 
-    padding:30px 30px; 
-    width: 500px; 
-    max-width: 90%; 
-    border-radius: 5px;
-}
-
 :root {
     --bg-gradient: linear-gradient(to bottom,rgb(0, 0, 0), rgb(23, 31, 72));
     --text-color: rgb(235, 238, 255);
@@ -40,7 +28,7 @@ h3 {
     --glow-color: rgb(169, 169, 189);
     
     /* Animation Colors */
-    --star-color: rgb(247, 247, 192); 
+    --star-color: rgb(255, 255, 255); 
     --shooting-head:   rgb(153, 175, 179);
     --shooting-tail: rgba(206, 206, 216, 0.844);
     
